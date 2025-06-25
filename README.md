@@ -1,6 +1,3 @@
-### 📄 `README.md`
-
-```markdown
 # 💳 Credit Risk & Fraud Detection App
 
 This is a production-ready **Streamlit web application** that predicts the likelihood of a **credit card transaction being fraudulent** using a trained machine learning model. It can be adapted for **credit risk scoring** or similar financial use cases.
@@ -46,7 +43,6 @@ We use the popular **Kaggle Credit Card Fraud Detection Dataset**:
 ## 📁 Folder Structure
 
 ```
-
 credit-risk-detector/
 ├── app/
 │   ├── main.py            # Streamlit UI
@@ -54,11 +50,10 @@ credit-risk-detector/
 ├── data/
 │   └── creditcard.csv     # Input dataset
 ├── notebooks/
-│   └── eda\_modeling.ipynb # Model training + EDA
+│   └── eda_modeling.ipynb # Model training + EDA
 ├── requirements.txt
 └── README.md
-
-````
+```
 
 ---
 
@@ -79,16 +74,14 @@ credit-risk-detector/
 ```bash
 git clone https://github.com/your-username/credit-risk-detector.git
 cd credit-risk-detector
-````
+```
 
-2. Install requirements
-
+2. Install requirements  
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the Streamlit app
-
+3. Run the Streamlit app  
 ```bash
 streamlit run app/main.py
 ```
@@ -99,40 +92,30 @@ streamlit run app/main.py
 
 ## 📈 Model Details
 
-* **Type**: Random Forest Classifier
-* **Handling Imbalance**: Class weights
-* **Evaluation**: Precision, Recall, F1-Score, ROC-AUC
-* **Performance**: Achieved F1-score \~0.92 on test data
+- **Type**: Random Forest Classifier  
+- **Handling Imbalance**: Class weights  
+- **Evaluation**: Precision, Recall, F1-Score, ROC-AUC  
+- **Performance**: Achieved F1-score ~0.92 on test data
 
 ---
 
 ## 🎯 Future Improvements
 
-* Add SHAP-based interpretability
-* Extend to credit scoring use case
-* Real-time fraud stream monitoring
-* CI/CD pipeline + monitoring with Airflow/Grafana
+- Add SHAP-based interpretability  
+- Extend to credit scoring use case  
+- Real-time fraud stream monitoring  
+- CI/CD pipeline + monitoring with Airflow/Grafana
 
 ---
 
 ## 🧑‍💼 Author
 
-**Prabhakar Kumar Singh**
-📫 [LinkedIn](https://www.linkedin.com/in/prabhakars367/)
-📧 [prabhakars367@gmail.com](mailto:prabhakars367@gmail.com)
+**Prabhakar Kumar Singh**  
+📫 [LinkedIn](https://www.linkedin.com/in/prabhakars367/)  
+📧 prabhakars367@gmail.com
 
 ---
 
 ## 🛡️ License
 
 This project is open source under the MIT License.
-
-```
-
----
-
-Let me know if you'd like:
-- A version customized with your Hugging Face live link  
-- A walkthrough video for this project  
-- A short LinkedIn post based on this `README`
-```
