@@ -4,13 +4,6 @@ This is a production-ready **Streamlit web application** that predicts the likel
 
 ---
 
-## 🚀 Live Demo (Optional)
-
-👉 [Click to Launch App](https://your-huggingface-space-link)  
-👉 [Watch Demo Video](https://your-youtube-link)
-
----
-
 ## 🧠 Project Overview
 
 Financial institutions face growing challenges in identifying fraud in real-time. This project tackles that using:
